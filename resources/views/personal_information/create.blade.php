@@ -56,7 +56,7 @@
                             </select>
                         </div>
                         <div>
-                            <label for="height" class="block text-sm font-medium text-gray-700">Height (cm)</label>
+                            <label for="height" class="block text-sm font-medium text-gray-700">Height (m)</label>
                             <input type="number" step="0.01" name="height" id="height" class="mt-1 block w-full">
                         </div>
                         <div>
@@ -159,6 +159,10 @@
                              <label for="permanent_street" class="block text-sm font-medium text-gray-700">Street</label>
                              <input type="text" name="permanent_street" id="permanent_street" class="mt-1 block w-full">
                          </div>
+                         <div>
+                            <label for="permanent_subdivision" class="block text-sm font-medium text-gray-700">Subdivision</label>
+                            <input type="text" name="permanent_subdivision" id="permanent_subdivision" class="mt-1 block w-full">
+                        </div>
                          <div>
                              <label for="permanent_barangay" class="block text-sm font-medium text-gray-700">Barangay</label>
                              <input type="text" name="permanent_barangay" id="permanent_barangay" class="mt-1 block w-full">

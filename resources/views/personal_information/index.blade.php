@@ -19,7 +19,7 @@
                 <!-- Personal Information Table -->
                 <div class="overflow-x-auto bg-white shadow-md rounded-lg">
                     <table class="min-w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                        <thead class="bg-gray-100 dark:bg-gray-700 text-xs uppercase text-gray-700 dark:text-gray-200">
+                        <thead class="bg-gray-100 car parts buying zamboangadark:bg-gray-700 text-xs uppercase text-gray-700 dark:text-gray-200">
                             <tr>
                                 <th class="px-6 py-3">{{ __('Name') }}</th>
                                 <th class="px-6 py-3">{{ __('Date of Birth') }}</th>
@@ -38,7 +38,7 @@
                                             {{ __('View') }}
                                         </a>
                                         <a href="{{ route('personal_information.edit', $info->personal_information_id) }}" class="text-blue-600 hover:text-blue-900">
-                                            {{ __('Editdgdfgdfg') }}
+                                            {{ __('Edit') }}
                                         </a>
                                         |
                                         <form action="{{ route('personal_information.destroy', $info->personal_information_id) }}" method="POST" class="inline">
