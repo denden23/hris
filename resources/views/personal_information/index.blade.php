@@ -11,9 +11,10 @@
                 
                 <!-- Create Button -->
                 <div class="mb-6">
-                    <a href="{{ route('personal_information.create') }}" class="bg-blue-500 text-red py-2 px-4 rounded-lg shadow hover:bg-blue-600">
-                        {{ __('Create Personal Information') }}
+                    <a href="{{ route('personal_information.create') }}" class="bg-blue-500 text-white py-2 px-4 rounded-lg shadow hover:bg-blue-600">
+                        Create Personal Information
                     </a>
+                    
                 </div>
 
                 <!-- Personal Information Table -->
