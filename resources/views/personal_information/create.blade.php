@@ -283,24 +283,23 @@
                                     </div>
                                 </div>
 
-                                <!-- Mother -->
-                                <h5 class="text-sm font-semibold mt-6 mb-4 text-gray-800 dark:text-gray-200">{{ __("MOTHER'S DETAILS") }}</h5>
-                                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                                    <div>
-                                        <label for="mother_surname" class="block text-sm font-medium text-gray-700">SURNAME</label>
-                                        <input type="text" name="mother_surname" id="mother_surname" class="mt-1 block w-full">
-                                    </div>
-                                    <div>
-                                        <label for="mother_first_name" class="block text-sm font-medium text-gray-700">FIRST NAME</label>
-                                        <input type="text" name="mother_first_name" id="mother_first_name" class="mt-1 block w-full">
-                                    </div>
-                                    <div>
-                                        <label for="mother_middle_name" class="block text-sm font-medium text-gray-700">MIDDLE NAME</label>
-                                        <input type="text" name="mother_middle_name" id="mother_middle_name" class="mt-1 block w-full">
-                                    </div>
-                                </div>
                             </div>
-   
+                             <!-- Mother -->
+                             <h5 class="text-sm font-semibold mt-6 mb-4 text-gray-800 dark:text-gray-200">{{ __("MOTHER'S DETAILS") }}</h5>
+                             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                 <div>
+                                     <label for="mother_surname" class="block text-sm font-medium text-gray-700">SURNAME</label>
+                                     <input type="text" name="mother_surname" id="mother_surname" class="mt-1 block w-full">
+                                 </div>
+                                 <div>
+                                     <label for="mother_first_name" class="block text-sm font-medium text-gray-700">FIRST NAME</label>
+                                     <input type="text" name="mother_first_name" id="mother_first_name" class="mt-1 block w-full">
+                                 </div>
+                                 <div>
+                                     <label for="mother_middle_name" class="block text-sm font-medium text-gray-700">MIDDLE NAME</label>
+                                     <input type="text" name="mother_middle_name" id="mother_middle_name" class="mt-1 block w-full">
+                                 </div>
+                             </div>
                         </div>
 
                         <!-- Government IDs Tab -->
